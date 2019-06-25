@@ -1,0 +1,151 @@
+.basic{
+	width: 100%;
+	height: 1900px;
+	background-color: #E6D7D7;
+}
+.menu{
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.bee{
+	position: relative;
+	display: inline-block;
+	width: 80%;
+	height: auto;
+	background-color: #FFF;
+	margin: 0 auto;
+	top: 40px;
+	left: 10%;
+	
+}
+.bee div{
+	/*display: inline-block;*/
+	float: left;
+	height: auto;
+	background-color: #FFF;
+
+
+	
+}
+.box1{
+	width: 25%;
+	background-color: #FFF;
+}
+.box2{
+	width: 50%;
+	background-color: #FFF;
+}
+.box3{
+	width: 25%;
+	background-color: #FFF;
+
+}
+.box1 > p{
+	position: relative;
+	font-size: 13px;
+	text-align: justify;
+	margin: 10px;
+
+}
+.box2 > p{
+	position: relative;
+	font-size: 13px;
+	text-align: justify;
+	margin: 10px 0px;
+
+}
+img{
+	width: 100%;
+	padding: 10px;
+}
+.box3 > p{
+	position: relative;
+	font-size: 13px;
+	text-align: justify;
+	margin: 10px 0px;
+	padding: 10px;
+}
+
+.menu ul{
+	padding-left: 0px;
+	font-size: 0px;
+}
+ul{
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-left: 10%;
+}
+.menu li{
+	display: inline-block;
+    line-height: 60px;
+}
+.menu a{
+	display: block;
+    padding: 0px 20px;
+    font-size: 19px;
+    text-decoration: none;
+    color: #FFF;
+}
+li :link{
+	background-color: #000;
+	color: #FFF;
+
+}
+
+li :hover{
+	background-color:#B5B5B5; 
+}
+.footer{
+	width: 100%;
+	height: 281px;
+	background-color: #282828;
+	
+}
+.footer div{
+	position: relative;
+	display: inline-block;
+	width: 264px;
+	height: 200px;
+	background-color: #E1E1E1;
+	top: 15%;
+	margin:10px;
+	left: 7%;
+}
+hr{
+	display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.footer1{
+	text-align: center;
+	padding: 10px;
+}
+.footer2{
+	text-align: center;
+	padding: 10px;
+}
+.footer3{
+	text-align: center;
+	padding: 10px;
+}
+.footer4{
+	text-align: center;
+	padding: 10px;
+}
